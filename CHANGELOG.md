@@ -13,4 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Added
 
-🔧 TypeScript + tsup build system with dual ESM/CJS output
+🔧 TypeScript + tsup build system with dual
+
+- 🔍 Log line parser with 5 regex pattern formats
+- 📦 Core type definitions (LogEntry, LogLevel, AnalysisResult, FilterOptions)
+- 🧩 Level normalization (WARNING→WARN, EXCEPTION→ERROR)
