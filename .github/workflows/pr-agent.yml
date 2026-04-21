@@ -24,3 +24,6 @@ jobs:
 
           config.model: "gemini/gemini-2.5-flash-preview-04-17" # ✅
           config.fallback_models: "gemini/gemini-2.0-flash" # ✅ ده كويس
+
+          config.disable_auto_feedback: true
+          config.require_all_thresholds_for_incremental_review: true
