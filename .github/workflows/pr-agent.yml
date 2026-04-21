@@ -22,5 +22,5 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          config.model: "gemini/gemini-2.5-flash"
-          config.fallback_models: "gemini/gemini-2.0-flash"
+          config.model: "gemini/gemini-2.5-flash-preview-04-17" # ✅
+          config.fallback_models: "gemini/gemini-2.0-flash" # ✅ ده كويس
