@@ -21,6 +21,5 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-          config.model: "gemini/gemini-1.5-pro-latest"
+          config.model: "gemini/gemini-1.5-pro"
           config.fallback_models: "gemini/gemini-1.5-flash"
