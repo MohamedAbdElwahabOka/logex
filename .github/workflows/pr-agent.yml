@@ -1,0 +1,26 @@
+name: PR-Agent
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  issues: write
+  pull-requests: write
+  contents: write
+
+jobs:
+  pr_agent_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR Agent Action
+        id: pragent
+        uses: Codium-ai/pr-agent@main
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          config.model: "gemini/gemini-1.5-pro-latest"
+          config.fallback_models: "gemini/gemini-1.5-flash"
