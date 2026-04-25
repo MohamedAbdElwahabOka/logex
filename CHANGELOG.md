@@ -21,3 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 📁 File system utilities (resolve paths, check existence, human-readable sizes)
 - 🚀 Stream-parse entire log files with O(1) memory
 - 📊 Line counting for accurate percentage calculations
+- 📊 `analyze` command with level counts, percentages, severity breakdown
+- 🧮 Single-pass analyzer (O(n)) with top message frequency tracking
+- 🔧 Commander.js CLI framework with version and help
