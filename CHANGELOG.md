@@ -18,3 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 🔍 Log line parser with 5 regex pattern formats
 - 📦 Core type definitions (LogEntry, LogLevel, AnalysisResult, FilterOptions)
 - 🧩 Level normalization (WARNING→WARN, EXCEPTION→ERROR)
+- 📁 File system utilities (resolve paths, check existence, human-readable sizes)
+- 🚀 Stream-parse entire log files with O(1) memory
+- 📊 Line counting for accurate percentage calculations

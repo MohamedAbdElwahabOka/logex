@@ -102,15 +102,6 @@ export function parseTimestamp(raw: string): Date | undefined {
   return isNaN(d.getTime()) ? undefined : d;
 }
 
-/**
- * Parse log entries from any Readable stream (file, stdin, child process).
- *
- * Uses readline.createInterface for line-by-line async iteration.
- * Memory-efficient: only one line in memory at a time (O(1) memory).
- *
- * @param stream - Any Readable stream (fs.createReadStream, process.stdin, etc.)
- * @param onEntry - Optional callback fired for each parsed entry (useful for live display)
- */
 export async function parseLogStream(
   stream: Readable,
   onEntry?: (entry: LogEntry) => void,
