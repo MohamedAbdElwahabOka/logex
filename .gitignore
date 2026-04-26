@@ -7,3 +7,19 @@ coverage/
 *.tsbuildinfo
 .env
 .vscode/
+node_modules/
+dist/
+*.log
+!tests/fixtures/*.log
+coverage/
+.DS_Store
+*.tsbuildinfo
+.env
+
+# Study files (personal learning materials)
+study_plan.md
+study_reference.md
+build_plan.md
+unified_plan.md
+github_issues_and_prs.md
+github_issues_and_prs_testing.md
