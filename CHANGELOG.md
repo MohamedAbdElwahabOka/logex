@@ -24,3 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 📊 `analyze` command with level counts, percentages, severity breakdown
 - 🧮 Single-pass analyzer (O(n)) with top message frequency tracking
 - 🔧 Commander.js CLI framework with version and help
+- 🎨 Theme system with semantic colors for all log levels
+- 🖼️ ASCII art banner with gradient coloring (figlet + gradient-string)
+- ⏳ Spinner with auto-succeed/fail (ora)
+- 📋 Styled analysis tables with progress bars (cli-table3)
